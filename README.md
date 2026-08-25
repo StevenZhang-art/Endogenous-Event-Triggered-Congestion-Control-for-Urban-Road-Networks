@@ -2,14 +2,15 @@
 
 ## 运行环境
 - **SUMO 版本**：1.27.1（请确保系统路径已正确配置，或按需修改脚本中的 SUMO 环境变量）
-- **Python 依赖**：见 `requirements.txt`（如 traci、numpy、matplotlib 等）
 
 ## 启动实验
-1. **主实验**：运行  
+
+1. **路网生成**：运行generate_path_1.py, generate_path2.py, generate_candidate_paths_philadelphia.py, deal_philadelphia.py,tntp_parser_philadelphia.py
+2. **主实验**：运行  
    `python experiment/traffic_simulation.py`  
    该脚本执行完整的主对比实验
 
-2. **Kp 参数敏感性分析**：运行  
+3. **Kp 参数敏感性分析**：运行  
    `python experiment/Kp.py`  
    该脚本执行反馈增益 `K_p` 的消融实验。
 
