@@ -1,0 +1,5 @@
+total_nodes (full network): 13389
+nodes_in_scope (cropped): 1398
+total_edges (full network): 40003
+num_edges (cropped): 4186
+required_node_ids (cropped, from+to union): 1474
